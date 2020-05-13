@@ -10,3 +10,4 @@ install:
 script:
     - flake8
     - nose2 --with-coverage
+    - bash <(curl -s https://codecov.io/bash)
